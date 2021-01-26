@@ -28,7 +28,7 @@ const questions = [
     {
         type: "input",
         name: "licence",
-        message: "Whic license do you want for your project?"
+        message: "Which license do you want for your project?"
     },
     {
         type: "input",
