@@ -1,9 +1,10 @@
+//const 
 const inquirer = require("inquirer");
 const fs = require('fs');
 const axios = require("axios");
 const generate = require('./utils/markdown');
 const { makeBadge, ValidationError } = require('badge-maker');
-//Readme question
+//Question to generate README
 const questions = [
     {
         type: "input",
